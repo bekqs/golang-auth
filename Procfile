@@ -1,1 +1,1 @@
-web: go go-auth-app.go
+web: go-auth-app -port=$PORT
