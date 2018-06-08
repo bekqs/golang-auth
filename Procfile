@@ -1,1 +1,1 @@
-web: go go-auth-app
+web: go go-auth-app.go
