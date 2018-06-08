@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Welcome</title>
+</head>
+
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/logout">Logout</a>
+        <a href="/profile">Edit Profile</a>
+    </nav>
+    <div>
+        <h2>Welcome {{ .fullName }}</h2>
+        <p>Registered Email: {{ .email }}</p>
+        <p>Alternate Email: {{ .contactEmail }}</p>
+        <p>Address: {{ .address }}</p>
+        <p>Phone: {{ .phone }}</p>
+    </div>
+
+</body>
+
+</html>
